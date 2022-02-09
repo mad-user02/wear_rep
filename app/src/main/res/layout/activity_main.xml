@@ -19,11 +19,22 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:onClick="goSignIn"
+                android:text="Cancel" />
+
             <LinearLayout
                 android:id="@+id/ll1"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:background="@drawable/button"
+                android:onClick="goChat"
+                android:layout_below="@id/textView3"
+                android:layout_marginTop="5dp"
                 android:layout_marginLeft="15dp"
                 android:orientation="vertical">
 
@@ -46,8 +57,9 @@
                 android:id="@+id/ll2"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="28dp"
                 android:layout_below="@id/ll1"
+                android:onClick="goLove"
                 android:background="@drawable/button"
                 android:layout_marginLeft="15dp"
                 android:orientation="vertical">
@@ -71,8 +83,11 @@
                 android:id="@+id/ll3"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:layout_marginTop="5dp"
                 android:background="@drawable/button"
+                android:onClick="goPod"
                 android:layout_marginLeft="100dp"
+                android:layout_below="@id/textView3"
                 android:orientation="vertical">
 
                 <ImageView
@@ -81,7 +96,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_gravity="center"
-                    android:src="@drawable/vector3" />
+                    android:src="@drawable/vector2" />
 
             </LinearLayout>
             <TextView
@@ -89,7 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/ll3"
-                android:layout_marginLeft="90dp"
+                android:layout_marginLeft="85dp"
                 android:text="Подборки" />
         </RelativeLayout>
     </FrameLayout>

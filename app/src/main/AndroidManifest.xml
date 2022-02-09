@@ -38,6 +38,36 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".CompilationScreen"
+            android:exported="true"
+            android:label="@string/title_activity_compilation_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FavoritesScreen"
+            android:exported="true"
+            android:label="@string/title_activity_favorites_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChatListScreen"
+            android:exported="true"
+            android:label="@string/title_activity_chat_list_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainScreen"
             android:exported="true"
             android:label="@string/app_name">

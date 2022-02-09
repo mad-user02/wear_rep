@@ -6,4 +6,7 @@
     -->
     <string name="hello_world">Hello Square World!</string>
     <string name="title_activity_sign_in_screen">SignInScreen</string>
+    <string name="title_activity_chat_list_screen">ChatListScreen</string>
+    <string name="title_activity_compilation_screen">CompilationScreen</string>
+    <string name="title_activity_favorites_screen">FavoritesScreen</string>
 </resources>
