@@ -15,4 +15,7 @@ interface RetrofitInterface {
 
     @GET("movies")
     fun getFilms(@Query("filter") filter : String) : Call<List<FilmsModel>>
+
+    @GET("usermovies")
+    fun getLast(@Query("filter") filter : String) : Call<List<FilmsModel>>
 }

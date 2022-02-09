@@ -25,6 +25,12 @@
                 android:textColor="#FFFFFF"
                 android:onClick="goMain3"
                 android:text="Cancel" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/my_rv"
+                android:layout_width="match_parent"
+                android:layout_below="@id/textView3"
+                android:layout_height="match_parent" />
         </RelativeLayout>
     </FrameLayout>
 </androidx.wear.widget.BoxInsetLayout>
